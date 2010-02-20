@@ -1,12 +1,16 @@
 ---
-abstract: 'Chocolate Perl for Win32 (EXPERIMENTAL)'
+abstract: "The \"Strawberry Perl Professional\" distribution."
 author:
   - 'Adam Kennedy <adamk@cpan.org>'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
   LWP::Online: 1.07
   Test::More: 0.42
+  Test::Perl::Dist: 0.202
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 0.93'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,10 +20,18 @@ name: Perl-Dist-Chocolate
 no_index:
   directory:
     - inc
+    - share
     - t
 requires:
-  Perl::Dist::Strawberry: 1.07
-  perl: 5.8.0
+  Perl::Dist::Strawberry: 2.02
+  URI::file: 4.20
+  parent: 0.221
+  perl: 5.8.1
 resources:
+  IRC: irc://irc.perl.org/#win32
+  WebIRC: http://widget.mibbit.com/?server=irc.perl.org&channel=%23win32
+  bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Perl-Dist-Chocolate
+  homepage: http://www.strawberryperl.com/
   license: http://dev.perl.org/licenses/
-version: 1.07
+  repository: http://svn.ali.as/cpan/trunk/Perl-Dist-Chocolate
+version: 2.02_01

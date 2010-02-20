@@ -1,11 +1,15 @@
 Changes
 inc/Module/Install.pm
+inc/Module/Install/AutoLicense.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
+inc/Module/Install/PerlTar.pm
+inc/Module/Install/Share.pm
 inc/Module/Install/Win32.pm
+inc/Module/Install/With.pm
 inc/Module/Install/WriteAll.pm
 lib/Perl/Dist/Chocolate.pm
 LICENSE
@@ -13,12 +17,15 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
-t/01_compile.t
-t/02_new.t
-t/03_perl_5100.t
-t/97_meta.t
-t/98_pod.t
-t/99_pmv.t
+share/chocolate.ico
+share/chocolate/README.professional.txt.tt
+share/cpan.ico
+share/DISTRIBUTIONS.professional.txt.tt
+share/padre.ico
+share/perlthon.ico
+share/tkpod.ico
+share/wxcpan.ico
+t/001_compile.t
 t/data/cpan/authors/id/readme.txt
 t/lib/Test.pm
 t/lib/Test1.pm
