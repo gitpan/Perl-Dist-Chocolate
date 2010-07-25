@@ -17,12 +17,17 @@ Makefile.PL
 MANIFEST			This list of files
 META.yml
 README
+share/catalyst.ico
 share/chocolate.ico
+share/chocolate/DISTRIBUTIONS.professional.txt.tt
 share/chocolate/README.professional.txt.tt
+share/chocolate/release_notes.html.tt
 share/cpan.ico
 share/DISTRIBUTIONS.professional.txt.tt
+share/frozen-bubble.ico
 share/padre.ico
-share/perlthon.ico
+share/perlcmd.ico
+share/re.ico
 share/tkpod.ico
 share/wxcpan.ico
 t/001_compile.t
